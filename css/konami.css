@@ -1,0 +1,8 @@
+:root{
+    --gif-height: 40em;
+}
+
+#code-invalid-gif, #code-correct-gif{
+    height: var(--gif-height);
+    aspect-ratio: auto;
+}
