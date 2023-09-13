@@ -43,7 +43,7 @@ $(function(){
      */
     function checkCodeMatch(){
         if(konamiCode.length === keyArr.length){
-            if(konamiCode.join(" ") === keyArr.join(" ")){
+            if(konamiCode.join(" ").toLowerCase() === keyArr.join(" ").toLowerCase()){
                 isCode = true;
             }
         }
